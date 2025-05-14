@@ -2,8 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-/javafx-sdk-21.0.6
-/mariadb-java-client-2.3.0.jar
+javafx-sdk-21.0.6/
+mariadb-java-client-2.3.0.jar
 
 ### Eclipse ###
 .apt_generated

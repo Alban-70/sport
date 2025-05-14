@@ -1,0 +1,123 @@
+.btn{
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20px;
+}
+
+.btn:hover{
+    -fx-background-color: #75A9FC;
+}
+.active-btn {
+    -fx-background-color: #3B82F6;
+}
+
+.lab{
+    -fx-font-size: 30;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+
+.hbChall{
+    -fx-border-radius: 10px;
+    -fx-background-color: #EAEAEA;
+}
+
+.vbInStat{
+    -fx-background-color: #292A2D;
+}
+
+.labelStat{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 30;
+}
+.label20{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20;
+}
+.label15{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 15;
+}
+
+.vbInGP{
+    -fx-background-color: #323232;
+    -fx-background-radius: 10px;
+}
+.hbInVBox{
+    -fx-background-radius: 10px;
+    -fx-background-color: #3F4144;
+}
+.label-timer{
+    -fx-font-size: 20px;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+.warning {
+    -fx-text-fill: red;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.chart-plot-background{
+    -fx-background-color: transparent;
+}
+.linechart .chart-vertical-grid-lines{
+    -fx-stroke: transparent;
+}
+.linechart .chart-horizontal-grid-lines{
+    -fx-stroke: #637081;
+    -fx-stroke-dash-array: null;
+}
+.linechart .chart-series-line {
+    -fx-stroke: #4A6CF7;  /* Changer la couleur de la ligne */
+}
+
+/* Modifier la couleur des points (symboles) sur la ligne */
+.linechart .chart-line-symbol {
+    -fx-background-color: #4A6CF7;  /* Changer la couleur des points */
+}
+.linechart .chart-series-area {
+    -fx-background-color: rgba(0, 0, 255, 0.3); /* Bande bleue avec transparence */
+    -fx-border-color: transparent; /* Pas de bordure autour de la zone */
+}
+.chart-legend{
+    -fx-background-color: transparent;
+    -fx-padding: 5;
+}
+.chart-legend-item,
+.chart-title{
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 5px;
+}
+
+.activityList{
+    -fx-control-inner-background: #323232;
+    -fx-background-color: #323232;
+    -fx-text-fill: white;
+    -fx-font-size: 25;
+}
+
+.pieChart .default-color0.chart-pie{
+    -fx-pie-color: #F44336;
+}
+.pieChart .default-color1.chart-pie{
+    -fx-pie-color: #4CAF50;
+}
+.pieChart .default-color2.chart-pie{
+    -fx-pie-color: #FF9800;
+}
+.pieChart .chart-pie-label-line{
+    -fx-stroke: transparent;
+}
+.bar-chart .chart-vertical-grid-lines {
+    -fx-stroke: transparent; /* Supprimer les lignes verticales */
+}
+
+.bar-chart .chart-horizontal-grid-lines {
+    -fx-stroke: #637081;      /* Couleur personnalisée pour les lignes horizontales */
+    -fx-stroke-dash-array: null; /* Ligne pleine (non pointillée) */
+}
+.bar-chart .chart-bar {
+    -fx-bar-fill: #4A6CF7; /* Couleur de ton choix */
+}
